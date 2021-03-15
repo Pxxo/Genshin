@@ -1,4 +1,3 @@
-<?php echo "2020"; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,9 +19,9 @@
     <div class="options">
 
       <div class="languages">
-        <a href="caculator_ja.html">JA</a>
+        <a href="caculator_ja.php">JA</a>
         <span>or</span>
-        <a href="caculator_en.html">EN</a>
+        <a href="caculator_en.php">EN</a>
       </div>
 
       <span class="opinion">
