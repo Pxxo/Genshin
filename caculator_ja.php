@@ -25,7 +25,7 @@
       </div>
 
       <span class="opinion">
-        <a href="http://pxxo.php.xdomain.jp/portfolio2021/index.php#contact" target="_blank" rel="noopener noreferrer">
+        <a href="https://kosei.herokuapp.com/#contact" target="_blank" rel="noopener noreferrer">
           Opinion BOX
         </a>
       </span>
