@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #EBECF0;
+}
+.card{
+  font-family: ntjp;
+  margin: 0 auto;
+  padding: 30px 0;
+  text-align: center;
+  width: 510px;
+  border-radius: 30px;
+  background-color: #EBECF0;
+  box-shadow: 5px 5px 10px #c8c9cc,-5px -5px 10px #ffffff;
+  color: rgb(59, 59, 59);
+  .title{
+    font-size: 25px;
+    margin: 0 0 15px 0;
+  }
+  .selectBar{
+    width: 200px;
+    margin-right: 20px;
+  }
+  .result{
+    .displayBr{
+      display: none;
+    }
+    .spotlight{
+      color: rgb(43, 116, 251);
+    }
+  }
+  .options{
+    margin-top: 3px;
+    .opinion{
+      a{
+      color: slategrey;
+      text-decoration: none;
+      font-size: 15px;
+      }
+    }
+    .partition{
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      font-size: 15px;
+      padding: 0 5px;
+    }
+    .languages{
+      font-size: 15px;
+      a{
+        color: rgb(43, 116, 251);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media (max-width:520px){
+  .card{
+    width: 320px;
+    .result{
+      .displayBr{
+        display: inline;
+      }
+    }
+  }
+}
+@font-face{
+  font-family: ntjp;
+  src: url(../font/ntjp-black.otf);
+}
