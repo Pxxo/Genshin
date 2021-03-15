@@ -40,36 +40,6 @@
     </div>
 
   </div>
-
-  <script>
-    get_range_value = () => {
-      // 現在時刻
-      var now = new Date();
-      var nowHour = now.getHours();
-      range_value = document.getElementById('range').value;
-      document.getElementById('range-value').innerHTML = nowHour + ":00(現在)の" + range_value + "時間後";
-      resin_quantity = range_value * 60 / 8;
-      document.getElementById('result').innerHTML = "+" + String(resin_quantity);
-      var afterHour = Number(nowHour) + Number(range_value);
-      if (afterHour >= 24) {
-        var afterHour = afterHour - 24;
-        document.getElementById('now').innerHTML = "明日の" + String(afterHour) + ":00まで";
-      } else {
-        document.getElementById('now').innerHTML = "今日の" + String(afterHour) + ":00まで";
-      }
-    }
-    setInterval(get_range_value, 1);
-
-    getWindowSize = () => {
-      var sW, sH, s;
-      sW = window.innerWidth;
-      sH = window.innerHeight;
-      sH = sH / 2;
-      document.getElementById("card").style.transform = "translateY(-50%)";
-      document.getElementById("card").style.marginTop = String(sH) + "px";
-    }
-    setInterval(getWindowSize, 1);
-  </script>
 </body>
 
 </html>
