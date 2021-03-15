@@ -14,8 +14,7 @@
     <h3 class="title">Genshin Resin calculator</h3>
     <span id="range-value" class="afterHour"></span><br><input type="range" min="1" max="24" value="1" id="range" class="selectBar">
     <div class="result">
-      <span id="now"></span><span class="spotlight" id="result"></span><br class="displayBr"><span> will be
-        collected.</span>
+      <span id="now"></span><span class="spotlight" id="result"></span><br class="displayBr"><span> will be collected.</span>
     </div>
     <div class="options">
 
