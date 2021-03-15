@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/caculator_ja.css">
-  <title>Genshin Impact resin caculator</title>
+  <title>原神 樹脂 計算機</title>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
       </span>
       <span class="partition">/</span>
       <span class="opinion">
-        <a href="http://pxxo.php.xdomain.jp/portfolio2021/index.php" target="_blank" rel="noopener noreferrer">
+        <a href="https://kosei.herokuapp.com/" target="_blank" rel="noopener noreferrer">
           Produced By Kosei.
         </a>
       </span>
