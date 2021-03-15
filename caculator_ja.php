@@ -1,5 +1,3 @@
-<?php echo "2020"; ?>
-
 <!DOCTYPE html>
 <html lang="ja">
 
