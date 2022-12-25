@@ -28,7 +28,7 @@
             </div>
 
             <span class="opinion">
-                <a href="http://pxxo.php.xdomain.jp/index.php/#contact" target="_blank" rel="noopener noreferrer">
+                <a href="http://pxxo.php.xdomain.jp/index.php" target="_blank" rel="noopener noreferrer">
                     Opinion BOX
                 </a>
             </span>
